@@ -47,7 +47,7 @@ public class Program {
 		System.out.println(seller);
 		
 		System.out.println("\n===========================Delete by id===============================");
-		sellerDao.deleteById(10);
+		sellerDao.deleteById(20);
 	}
 
 }
