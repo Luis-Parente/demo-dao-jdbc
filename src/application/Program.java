@@ -29,6 +29,11 @@ public class Program {
 			System.out.println(s);
 		}
 		
+		List<Seller> sellerList2 = sellerDao.findAll();
+		
+		for(Seller s : sellerList2) {
+			System.out.println(s);
+		}
 	}
 
 }
